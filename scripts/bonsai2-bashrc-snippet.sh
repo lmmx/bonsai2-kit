@@ -1,8 +1,7 @@
 # Add to ~/.bashrc (or source this file from it).
 
 # Update BONSAI2_REPO to wherever you clone this repo.
-
-export BONSAI2_REPO="$HOME/lab/bonsai2"
+export BONSAI2_REPO="$HOME/path/to/bonsai2-kit"
 
 function bonsai2() {
     echo "Running Ternary-Bonsai-2-27B-PTQ1_0 (no CoT)"
